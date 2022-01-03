@@ -12,6 +12,7 @@ h1 {
   display: flex;
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
+  padding-bottom: 150px;
 }
 .description {
   width: 50%;
@@ -45,7 +46,7 @@ h1 {
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
-  margin-top: 150px;
+  padding-bottom: 150px;
 }
 .dream-img {
   width: 50%;
@@ -69,4 +70,52 @@ h1 {
 .dream-description {
   width: 50%;
   margin-left: 3%;
+}
+.experience-area {
+  padding-bottom: 150px;
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.container {
+  display: flex;
+}
+.full-stack,
+.baby-web {
+  width: 70%;
+  margin: 50px;
+  padding: 30px;
+  box-shadow: 5px 7px 40px grey;
+}
+.full-stack {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, lightsalmon, tomato);
+  border-image-slice: 1;
+}
+.baby-web {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 1;
+}
+.full-stack h1,
+.baby-web h1 {
+  font-size: 38px;
+  margin-bottom: 40px;
+}
+.full-stack h3,
+.baby-web h3 {
+  color: orange;
+}
+
+.full-stack p,
+.baby-web p {
+  color: dimgray;
+  line-height: 27px;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+#footer {
+  text-align: center;
+  color: dimgray;
+  font-size: 18px;
 }
